@@ -1,5 +1,5 @@
 git checkout -b <branch_name>
 
-kedro new --starter=spaceflights --config=config.yaml
+pip install kedro==<kedro_version>
 
-cp -r spaceflights_temp/* .
+kedro new --starter=spaceflights --config=config.yaml && cp -r spaceflights_temp/* . && git commit -m "spaceflight starter"
