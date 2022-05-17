@@ -1,4 +1,5 @@
 import pandas as pd
+from pycbc.waveform import get_fd_waveform
 
 
 def _is_true(x: pd.Series) -> pd.Series:
