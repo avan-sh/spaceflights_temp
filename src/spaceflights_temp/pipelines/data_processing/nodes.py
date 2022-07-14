@@ -1,5 +1,8 @@
 import pandas as pd
-from pycbc.waveform import get_fd_waveform
+import logging
+
+
+logger = logging.getLogger(__name__)
 
 
 def _is_true(x: pd.Series) -> pd.Series:
@@ -66,3 +69,13 @@ def create_model_input_table(
     )
     model_input_table = model_input_table.dropna()
     return model_input_table
+
+
+def simple_log(planets):
+    # print(f"hello {input}!!")
+    output = f"hello {planets}!!"
+    logger.info(output)
+    for item in planets:
+        output = f"hello {item}!!"
+        logger.info(output)
+    return None
