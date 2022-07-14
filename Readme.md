@@ -5,6 +5,7 @@
 This is your new Kedro project, which was generated using `Kedro 0.18.1`.
 
 Take a look at the [Kedro documentation](https://kedro.readthedocs.io) to get started.
+kedro new --starter=spaceflights --config=config.yaml && mv spaceflights_temp/* .
 
 ## Rules and guidelines
 
@@ -120,3 +121,4 @@ To automatically strip out all output cell contents before committing to `git`, 
 ## Package your Kedro project
 
 [Further information about building project documentation and packaging your project](https://kedro.readthedocs.io/en/stable/tutorial/package_a_project.html)
+
