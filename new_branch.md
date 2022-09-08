@@ -1,5 +1,5 @@
 ```
-BRANCH_NAME=ked-120
+BRANCH_NAME=ked-1606
 KED_VERSION=0.18.2 
 
 git checkout -b $BRANCH_NAME
