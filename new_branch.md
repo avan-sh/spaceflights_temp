@@ -1,3 +1,4 @@
+```
 BRANCH_NAME=ked-120
 KED_VERSION=0.18.2 
 
@@ -14,3 +15,4 @@ kedro new --starter=spaceflights --config=config.yaml && mv spaceflights_temp/* 
 rm -r spaceflights_temp #delete original folder after move
 
 git add . && git commit -m "base spaceflight starter $BRANCH_NAME"
+```
